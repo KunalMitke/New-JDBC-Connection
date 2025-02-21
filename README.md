@@ -1,1 +1,1 @@
-# New-JDBC-Connection
+# jdbc-practice-
