@@ -3,7 +3,7 @@
 import java.sql.*;
 import java.util.Scanner;
 
-public class JDBC
+public class JDBC// we can put values manually here
 {
     private static String URL = "jdbc:mysql://localhost:3306/studinfo";
     private static String user = "root";

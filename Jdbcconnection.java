@@ -1,7 +1,7 @@
 import java.sql.*;
 import java.util.*;
 
-public class Jdbcconnection
+public class Jdbcconnection//this is directly updatable code we cannot insert manually we can change values from code ;
 {
     public static void main(String[] args) throws Exception {
         

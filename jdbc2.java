@@ -1,5 +1,6 @@
 import java.sql.*;
 import java.util.*;
+//this is a new code of jdbc connection in which we can update the values in database as per the requirments 
 
 class Jdbc1 {
     private static final String URL = "jdbc:mysql://localhost:3306/studinfo"; //the databasse name ;
