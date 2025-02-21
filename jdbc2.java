@@ -2,7 +2,7 @@ import java.sql.*;
 import java.util.*;
 
 class Jdbc1 {
-    private static final String URL = "jdbc:mysql://localhost:3306/studinfo"; // Update the database URL if necessary
+    private static final String URL = "jdbc:mysql://localhost:3306/studinfo"; //the databasse name ;
     private static final String USER = "root";
     private static final String PASSWORD = "kunal@1";
     private Connection conn;
@@ -10,11 +10,10 @@ class Jdbc1 {
 
     public Jdbc1() {
         try {
-            // Register the MySQL JDBC driver
+               //loading driver;
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("Driver Loaded...");
-
-            // Establish a connection to the database
+            //establishimg a connection;
             conn = DriverManager.getConnection(URL, USER, PASSWORD);
             System.out.println("Connection successful!");
 
